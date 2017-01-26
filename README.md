@@ -30,7 +30,7 @@ using Automator:
 1. Click the `Run` button and verify that it works
 1. Save the Service with a filename that's relatively short -- there's
    apparently an upper-limit to the file name if you want to use it
-along with keyboard shortcuts (see below)
+   along with keyboard shortcuts (see below)
 
 ## Set up a keyboard shortcut
 
@@ -41,4 +41,5 @@ along with keyboard shortcuts (see below)
 1. Scroll down to the `General` section
 1. Select the row containing the name of the service you just created
 1. Click `add shortcut` and press the keys you want to use as a global
-   shortcut
+   shortcut... e.g. fn-Ctrl-m for mute/unmute and fn-Ctrl-c for camera
+   on/off

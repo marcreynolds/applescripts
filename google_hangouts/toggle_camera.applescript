@@ -13,10 +13,8 @@ tell application "Google Chrome"
       if the_title is "Google Hangouts" then
         set button_action to execute the_tab javascript "document.querySelector('div[role=\"button\"][data-tooltip*=\"camera\"]').getAttribute(\"aria-label\")"
         execute the_tab javascript "var el = document.querySelector('div[role=\"button\"][data-tooltip*=\"camera\"]'); el.dispatchEvent(new MouseEvent('mousedown')); el.dispatchEvent(new MouseEvent('mouseup')); el.dispatchEvent(new MouseEvent('mouseout'));"
-        delay 0.05
-        set message to execute the_tab javascript "document.querySelector('.eL-cd.mQ[aria-live=\"polite\"]').innerHTML"
-        display notification message with title "Google Hangouts"
-        say message
+        say button_action
+        display notification button_action with title "Google Hangouts"
         found = true
         exit repeat
       end if
