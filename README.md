@@ -13,7 +13,8 @@ This directory contains 3 stripts for automating use of Google Hangouts:
   used as part of an Automator script for toggling a Google
   Hangouts camera without needing to switch to the Hangouts window.
 * `google_hanguts/focus_window.applescript`: this script can be used
-  as part of an Automator script to focus a Google Hangouts window
+  as part of an Automator script to focus a Google Hangouts window --
+THIS IS A WORK IN PROGRESS
 
 ## Setting up an Automator Service
 
